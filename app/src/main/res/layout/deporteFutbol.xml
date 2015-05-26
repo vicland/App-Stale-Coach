@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="1"
+android:background="@drawable/fondo_futbol">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="135dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="@drawable/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="200dp"
+            android:text="@string/entrenamientoLibre"
+            android:id="@+id/btnEntrenamientoLibre"
+            android:onClick="pulsarBoton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="@drawable/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/misEntrenamientos"
+            android:id="@+id/btnMisEntrenamientos"
+            android:layout_marginTop="40dp"
+            android:width="200dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="pulsarBoton"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="@drawable/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alineacion"
+            android:id="@+id/btnAlineacion"
+            android:layout_marginTop="40dp"
+            android:width="200dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="pulsarBoton"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        <Button
+            android:textColor="#FFFFFF"
+            android:background="@drawable/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/misAlineaciones"
+            android:id="@+id/btnMisAlineaciones"
+            android:width="200dp"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="pulsarBoton"/>
+    </LinearLayout>
+
+</LinearLayout>

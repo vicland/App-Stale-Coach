@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/elegirdeporte">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_weight="1.00"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/nuevologo2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:width="200dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/futbol"
+            android:id="@+id/btnFutbol"
+            android:onClick="pulsarBoton"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        <Button
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:width="200dp"
+            android:background="@drawable/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baloncesto"
+            android:id="@+id/btnBaloncesto"
+            android:layout_marginTop="55dp"
+            android:onClick="pulsarBoton"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        <Button
+            android:textColor="#FFFFFF"
+            android:width="200dp"
+            android:background="@drawable/boton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voleibol"
+            android:id="@+id/btnVoley"
+            android:layout_marginTop="55dp"
+            android:onClick="pulsarBoton"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+</LinearLayout>

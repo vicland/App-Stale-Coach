@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Hello World</string>
+    <string name="app_name">Stale Coach</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_deporte_baloncesto">deporteBaloncesto</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_deportevoley">deportevoley</string>
+    <string name="title_activity_categorias">Categorias</string>
+    <string name="title_activity_entrenamiento_libre">EntrenamientoLibre</string>
+    <string name="title_activity_entrenamiento_libre2">EntrenamientoLibre2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_mis_alineaciones">MisAlineaciones</string>
+    <string name="title_activity_entrenamientos_de_categorias">EntrenamientosDeCategorias</string>
+    <string name="title_activity_editar_entrenamiento">EditarEntrenamiento</string>
+    <string name="title_activity_alineaciones">Alineaciones</string>
 
+    <string name="futbol">FÚTBOL</string>
+    <string name="baloncesto">BALONCESTO</string>
+    <string name="voleibol">VOLEIBOL</string>
+    <string name="entrenamientoLibre">Entrenamiento libre</string>
+    <string name="misEntrenamientos">Mis entrenamientos</string>
+    <string name="alineacion">Alineación</string>
+    <string name="misAlineaciones">Mis alineaciones</string>
+    <string name="categoriaRemate">Remate</string>
+    <string name="categoriaPase">Pase</string>
+    <string name="categoriaDefensa">Defensa</string>
+    <string name="categoriaVelocidad">Velocidad</string>
+    <string name="categoriaBalonParado">Balón parado</string>
+    <string name="categoriaFisico">Físico</string>
+    <string name="categoriaAtaque">Ataque</string>
+    <string name="categoriaOtros">Otros</string>
+    <string name="eliminarEntrenamiento">¿Estás seguro de que desea eliminarlo?</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="Si">Si</string>
+    <string name="DatosEntrenamiento">Datos del entrenamiento</string>
+    <string name="DatosAlineacion">Datos de la alineación</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Categoria">Categoría</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="NoEntrenamiento">No hay entrenamientos</string>
+    <string name="NoAlineaciones">No hay alineaciones</string>
+    <string name="Guardado">Guardado</string>
+    <string name="Modificado">Modificado</string>
+    <string name="Guardar">Guardar</string>
 </resources>

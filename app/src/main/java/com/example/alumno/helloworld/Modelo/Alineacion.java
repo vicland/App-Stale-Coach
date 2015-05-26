@@ -1,9 +1,11 @@
-package com.stalecoach.stalecoach.modelo;
+package com.example.alumno.helloworld.Modelo;
+
+import java.io.Serializable;
 
 /**
  * Created by damonfor on 05/03/2015.
  */
-public class Alineacion {
+public class Alineacion implements Serializable{
     private int id_alin;
     private String nombre;
     private Deporte id_deporte;

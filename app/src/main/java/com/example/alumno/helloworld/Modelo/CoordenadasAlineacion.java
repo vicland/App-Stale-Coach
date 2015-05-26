@@ -1,13 +1,23 @@
-package com.stalecoach.stalecoach.modelo;
+package com.example.alumno.helloworld.Modelo;
+
+import android.os.Parcel;
+import android.os.Parcelable;
 
 /**
  * Created by damonfor on 05/03/2015.
  */
-public class CoordenadasAlineacion {
+public class CoordenadasAlineacion implements Parcelable {
     private ObjetoEntrenamiento id_obj;
     private Alineacion id_alin;
     private double coordx;
     private double coordy;
+
+    public CoordenadasAlineacion(Parcel p){
+        id_obj=(ObjetoEntrenamiento)p.readSerializable();
+        id_alin=(Alineacion)p.readSerializable();
+        coordx=p.readDouble();
+        coordy=p.readDouble();
+    }
 
     public CoordenadasAlineacion(ObjetoEntrenamiento id_obj, Alineacion id_alin, double coordx, double coordy) {
         this.id_obj = id_obj;
@@ -49,6 +59,25 @@ public class CoordenadasAlineacion {
     }
 
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
 
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeSerializable(id_obj);
+        dest.writeSerializable(id_alin);
+        dest.writeDouble(coordx);
+        dest.writeDouble(coordy);
+    }
+    public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {
+        public CoordenadasAlineacion createFromParcel(Parcel in) {
+            return new CoordenadasAlineacion(in);
+        }
 
+        public CoordenadasAlineacion[] newArray(int size) {
+            return new CoordenadasAlineacion[size];
+        }
+    };
 }

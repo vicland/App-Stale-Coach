@@ -1,9 +1,11 @@
 package com.example.alumno.helloworld.Modelo;
 
+import java.io.Serializable;
+
 /**
  * Created by damonfor on 26/02/2015.
  */
-public class Deporte {
+public class Deporte implements Serializable{
     private int id_deporte;
     private String nombre;
     private String fondo;
